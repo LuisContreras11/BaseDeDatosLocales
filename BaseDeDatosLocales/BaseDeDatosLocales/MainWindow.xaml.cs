@@ -22,7 +22,7 @@ namespace BaseDeDatosLocales
     /// </summary>
     public partial class MainWindow : Window
     {
-        SqlConnection conn = new SqlConnection();
+        SqlConnection conn = new SqlConnection("Data Source = (LocalDB)\\MSSQLLocalDB; AttachDbFilename=C:\\Users\\Alumno\\source\\repos\\BaseDeDatosLocales\\BaseDeDatosLocales\\BaseDeDatosLocales\\MiBaseDatos.mdf;Integrated Security = True");
         public MainWindow()
         {
             InitializeComponent();
